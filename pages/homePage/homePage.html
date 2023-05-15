@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/positioning.css">
+    <link rel="stylesheet" href="../../styles/display.css">
+    <link rel="stylesheet" href="../../styles/propFlex.css">
+    <link rel="stylesheet" href="../../styles/inputs.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/modalInfo.css">
+    <link rel="stylesheet" href="../../styles/modalHomePage.css">
+    <link rel="stylesheet" href="./homePage.css">
+
+    <link rel="shortcut icon" href="https://kenzie.com.br/favicon.jpeg" type="image/x-icon">
+    <title>Petinfo</title>
+
+    <script type="module" defer src="./homePage.js"></script>
+</head>
+<body>
+    <header class="container dspl-flex justy__cont-SB align__items-center" style="padding: 30px 0px;">
+        <h1 class="title2 font-w500">Petinfo</h1>
+        <nav class="dspl-flex justy__cont-SB align__items-center gap20">
+
+            <button id="createPost" class="button1 text4 font-w500">Criar publicação</button>
+
+            <div class="boxImg">
+                <img src="" id="avatarUser" alt="">
+            </div>
+
+            <div id="logoutDiv" class="dspl-none flex__direc-column ">
+                <p class="text4 font-w500 gray100" id="nameUser">@wigny</p>
+
+                <div class="dspl-flex align__items-center gap10">
+                    <div>
+                        <img src="../../assets/vector/sign-out-alt.jpg" alt="">
+                    </div>
+                    <p id="logout" class="text5 font-w500 gray100">Sair da conta</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="backgroundFeed">
+            <h3 class="container text3 font-w500" style="padding: 17px 0px;">Feed</h3>
+        </div>
+
+        <section id="posts" class="container dspl-flex flex__direc-column gap60" style="padding-top: 35px;">
+        </section>
+    </main>
+</body>
+</html>
+

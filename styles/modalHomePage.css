@@ -1,0 +1,44 @@
+#modalPosts{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: var(--width-fullvw);
+    height: var(--height-fullvh);
+    background-color: rgba(0,0,0, 0.2);
+    animation: createModal 500ms ease forwards;
+}
+#modalPosts article{
+    max-width: 60vw;
+    width: var(--width-fullPercent);
+    height: fit-content;
+    padding: 30px;
+    border-radius: var(--radius-1);
+    background-color: var(--gray900);
+}
+#modalPosts article textarea {
+    resize: none;
+    height: 20vh;
+    max-height: 35vh;
+}
+.opacityAnimation {
+    animation: opacityModal 500ms ease forwards !important;
+}
+
+@keyframes createModal {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes opacityModal {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}

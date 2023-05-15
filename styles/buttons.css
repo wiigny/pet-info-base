@@ -1,0 +1,69 @@
+.button1{
+    color: var(--gray900);
+    background-color: var(--brand100);
+    border: none;
+    border-radius: var(--radius-1);
+    padding: 7px 12px;
+    cursor: var(--pointer);
+    transition: var(--animation-duration) var(--animation-type);
+    
+}
+.button1:hover{
+    background-color: var(--brand200);
+}
+
+
+.button2{
+    color: var(--gray100);
+    background-color: transparent;
+    border: 1px solid var(--gray600);
+    border-radius: var(--radius-1);
+    padding: 7px 12px;
+    cursor: var(--pointer);
+    transition: var(--animation-duration) var(--animation-type);
+}
+.button2:hover{
+    background-color: var(--gray800);
+}
+
+
+.button3{
+    color: var(--gray400);
+    background-color: var(--gray700);
+    border: none;
+    padding: 7px 12px;
+    border-radius: var(--radius-1);
+    transition: var(--animation-duration) var(--animation-type);
+}
+.button3:hover{
+    color: var(--gray700);
+    background-color: var(--alert100);
+    cursor: var(--pointer);
+}
+
+
+.button4{
+    color: var(--brand100);
+    width: fit-content;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: var(--pointer);
+}
+.button4:hover{
+    color: var(--brand200);
+}
+
+.button5{
+    color: var(--gray900);
+    background-color: var(--alert100);
+    border: none;
+    border-radius: var(--radius-1);
+    padding: 7px 12px;
+    cursor: var(--pointer);
+    transition: var(--animation-duration) var(--animation-type);
+    
+}
+.button5:hover{
+    background-color: var(--alert200);
+}

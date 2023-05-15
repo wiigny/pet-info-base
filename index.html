@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/texts.css">
+    <link rel="stylesheet" href="./styles/colors.css">
+    <link rel="stylesheet" href="./styles/display.css">
+    <link rel="stylesheet" href="./styles/propFlex.css">
+    <link rel="stylesheet" href="./styles/positioning.css">
+    <link rel="stylesheet" href="./styles/inputs.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/modalInfo.css">
+    <link rel="stylesheet" href="./styles/loader.css">
+    <link rel="stylesheet" href="./pages/login/login.css">
+
+    <link rel="shortcut icon" href="https://kenzie.com.br/favicon.jpeg" type="image/x-icon">
+    <title>Petinfo - Login</title>
+
+    <script type="module" defer src="./pages/login/login.js"></script>
+</head>
+<body class="dspl-flex align__items-center">
+    <main class="container dspl-flex gap40">
+        <section class="wHalfPerc dspl-flex flex__direc-column gap20 justy__cont-center">
+            <h1 class="title1 font-w600">Petinfo</h1>
+
+            <p class="text1 gray100 font-w600"><span>Amor</span> e <span>carinho</span> por meio do conhecimento</p>
+
+            <p class="text4 gray300 font-w400">Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+
+            <div class="dspl-flex gap20">
+                <div class="dspl-flex flex__direc-column justy__cont-SB">
+                    <div class="dspl-flex justy__cont-SB">
+                        <img src="./assets/img/login/Rectangle 2.png" alt="">
+                        <img src="./assets/img/login/Rectangle 3.png" alt="">
+                    </div>
+
+                    <img src="./assets/img/login/Rectangle 4.png" alt="">
+                </div>
+
+                <div>
+                    <img src="./assets/img/login/Rectangle 5.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="wHalfPerc borderSection">
+           <form class="dspl-flex flex__direc-column gap20">
+                <h2 class="title3 font-w500">Login</h2>
+
+                <div class="dspl-flex flex__direc-column gap10">
+                    <label for="login" class="text4 gray100 font-w500">Email</label>
+                    <input type="email" name="login" id="email" class="input1" placeholder="Digite seu email aqui" required>
+                    <p id="emailInvalid" class="text5 alert100 font-w400 dspl-none">O email está incorreto</p>
+                </div>
+
+                <div class="dspl-flex flex__direc-column gap10">
+                    <label for="senha" class="text4 gray100 font-w500">Senha</label>
+                    <input type="password" name="senha" id="password" class="input1" placeholder="Digite sua senha aqui" required>
+
+                    <p id="passInvalid" class="text5 alert100 font-w400 dspl-none">A senha está incorreta</p>
+                </div>
+
+                <button type="submit" id="buttonAcess" class="button1" disabled="true"><p class="text4 font-w500">Acessar</p></button>
+
+                <p class="text5 gray100 text__align-center font-w500">Ainda não possui uma conta?</p>
+
+                <p class="text5 gray300 text__align-center font-w400">Clicando no botão abaixo, você pode se cadastrar rapidamente</p>
+
+                <button id="buttonRegister" class="button2 text4 font-w500" >Cadastrar</button>
+           </form> 
+
+        </section>
+    </main>
+
+</body>
+</html>

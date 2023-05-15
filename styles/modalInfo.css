@@ -1,0 +1,37 @@
+#divModal{
+    position: fixed;
+    border-radius: 8px;
+    background: var(--gray900);
+    max-width: 30vw;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 80%);
+    padding: 20px;
+    right: 30px;
+    bottom: 50px;
+    animation: animatedModal 3000ms ease forwards;
+}
+#divModal div div{
+    width: 24px;
+    height: 24px;
+}
+#divModal div img{
+    width: 100%;
+}
+
+@keyframes animatedModal {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    25%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    50%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}
